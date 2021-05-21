@@ -1,4 +1,4 @@
-DROP DATABASE Universidade_U;
+-- DROP DATABASE Universidade_U;
 
 CREATE DATABASE Universidade_U;
 
@@ -16,3 +16,7 @@ CREATE TABLE aluno (
     Ativo_sn int,
     Endereco text
 );
+
+DESC aluno;
+
+SELECT * FROM aluno;

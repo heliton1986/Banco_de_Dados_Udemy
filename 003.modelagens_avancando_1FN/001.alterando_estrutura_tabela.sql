@@ -11,10 +11,6 @@ ADD cpf varchar(11);
 ALTER TABLE aluno
 ADD email varchar(150) AFTER nome;
 
-ALTER TABLE aluno 
-ADD Cpf varchar(14) AFTER Email;
-
-
 -- Modify modificar a estrutura da coluna
 ALTER TABLE aluno
 MODIFY Cpf varchar(14);

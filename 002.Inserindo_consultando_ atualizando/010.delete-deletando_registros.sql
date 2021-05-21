@@ -1,3 +1,5 @@
+USE Universidade_U;
+
 SELECT * FROM aluno;
 
 DELETE FROM aluno
@@ -61,4 +63,5 @@ insert into aluno(
 );
 
 SELECT * FROM aluno;
+
 	
